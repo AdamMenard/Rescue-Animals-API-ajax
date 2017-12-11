@@ -15,14 +15,14 @@ $(document).ready(function() {
     dataType: "json",
     data: {
 
-    }
+    },
     success: searchAnimals
   }); //end ajax object
 
   function searchAnimals(sA) {
     debugger;
 
-    searchAnimals.#.#.forEach(character => {
+    sA.forEach(character => {
         let htmlStr = '<div></div>';
         $('.class').append(htmlStr);
     })
