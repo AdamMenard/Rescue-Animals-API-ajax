@@ -4,7 +4,8 @@ $(document).ready(function() {
   console.log("document is ready");
 
   $('.button').on('click', function(e) {
-    let url= "https://api.rescuegroups.org/http/v2.json"
+    let url= "https://api.rescuegroups.org/http/v2.json" +
+      $(input).val();
 
   }); //end button click function
 
@@ -20,6 +21,11 @@ $(document).ready(function() {
 
   function searchAnimals(sA) {
     debugger;
+
+    searchAnimals.#.#.forEach(character => {
+        let htmlStr = '<div></div>';
+        $('.class').append(htmlStr);
+    })
   }; //end searchAnimals function
 
 }); //end document.on ready function
